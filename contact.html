@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LENS | Contact</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Exo:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- header-->
+    <div class="header" id="home">
+        <!--Navbar-->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <div class="col-md-3"><a class="navbar-brand" href="index.html">LENS</a></div>
+                    <ul class="navbar-nav mr-auto col-md-6">
+                            <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="header_social col-md-3 text-right">
+                      <a href="#"><input name="search" id="search" type="search"></a>
+                       <a href="#"><img src="image/cart.png" alt=""></a>
+                        <a href="#"><img src="image/wishlist.png" alt=""></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="logo_overlay">
+            <h1 class="h1-responsive">LENS</h1>
+        </div>
+        <div class="header_item_contact">
+           <div class="heading_title">
+               <h2>LET'S CONTACT</h2>
+               <p>It’s all about upcoming zoom lens go to contuct us lorem <br>
+                ispum dolar sense come to larn happy conting </p>
+           </div>
+        </div>
+    </div>
+
+<section class="contact">
+    <div class="left-red">
+    </div>
+    <div class="container contact-box">
+            <div class="contact-form">
+        <form>
+        <div class="row">
+            <input class="name col-md-6" type="text" placeholder="Name">
+            <input class="email col-md-6" type="text" placeholder="Email">
+            </div>
+            <div class="row">
+            <input class="subject col-md-12" type="text" placeholder="Subject"></div>
+            <div class="row">
+            <textarea class="" placeholder="Message"></textarea> </div>
+           <button type="button" class="btn btn-danger">SEND</button>
+
+        </form>
+    </div>
+    </div>
+
+        <div class="container-fluid">
+        <div class="mapping">
+                       
+                                <div id="map" class="col-md-12" style="height:500px; background:yellow"></div>
+
+            </div>
+        </div>
+
+</section>
+    <h1 class="h1-responsive-contact">AWSOME <br>RESOLUTION</h1>
+    <section class="footer">
+        <div class="social">
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+        <h2>INFO@ZOOM-LENCE.COM</h2>
+        <p>Developed By <a href="https://github.com/sadikbinjalil/">Sadik Bin Jalil</a> | LENS Ecommerce Template © 2021</p>
+        <ul class="footer_icon">
+            <li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+            <li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
+            <li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+            <li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
+            <li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+        </ul>
+        <a href="#home" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+    </section>
+    
+            <!-- JQuery -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 24.905823507575562, lng: 91.86236710265509},
+          zoom: 12
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBS3Yh6DwH-kdZWaggaYB5v9nvT6Jr42Wc&callback=initMap"
+    async defer></script>
+    </body>
+</html>
